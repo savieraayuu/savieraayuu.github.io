@@ -1,0 +1,134 @@
+
+    
+  /* Untuk Smartphones */
+  
+  /* Tambahkan breakpoint max-width: 670px */
+  @media (max-width: 670px) {
+    /* Ubah width milik lesson ke 100% */
+    .container{
+        width: auto;
+    }
+
+    .header-right {
+        
+        flex-direction: column;
+          float: none;
+        
+        
+    }
+
+    .header-right a{
+        z-index: 1000;
+          
+          /* width: 100%; */
+          /* height: auto; */
+        right: -100%;
+        margin-right: 0;
+        top: 80px;
+        text-align: center;
+        transition: .5s;
+        background-color: aliceblue;
+        flex-direction: column;
+        display: none;
+        width: 100%;
+          
+      }
+      
+      #check:checked~.header-right a{
+        right: 0;
+        display: block;
+        
+      }
+
+      #icon{
+          display: block;
+      }
+
+
+
+
+      /* .header-right li{
+        display: block;
+        line-height: 10px;
+        margin: 0 0;
+        
+      } */
+      
+
+    /* .header-right{
+        display:  none;
+    } */
+
+    .menu-icon{
+        display: block;
+    }
+
+    .icon{
+        display: block;
+
+    }
+
+    .top-wrapper h1{
+    font-size: 3.5rem;
+    width: 40vw;
+    }
+   .products-wrapper{
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+   
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .product-item{
+        width: 100%;
+        height: auto;
+        
+       
+    }
+    .partnership{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+       
+    }
+    .quotes-wrapper{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         padding: 10px 0px 10px 0px;
+         text-align: center;
+    }
+    .txt-quotes{
+        font-size: 2rem;
+        width: 100%;
+        padding:0;
+    }
+    .img-quotes{
+        width: 100%;
+        height: auto;
+        padding:0;
+    }
+    .img-quotes img{
+       
+        width: 80%;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer-left .footer-right{
+        width: 100%;
+    }
+
+  }
