@@ -170,6 +170,17 @@ header {
   font-size: 15px;
 
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 .product-item img{
   width: 80%
 }
